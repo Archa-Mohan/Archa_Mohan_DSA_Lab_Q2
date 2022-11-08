@@ -6,7 +6,7 @@ public class StackBracket {
 		Stack<Character> stack = new Stack<>();
 		for (int i = 0; i < input.length(); i++) {
 			char k = input.charAt(i);
-			
+
 			if (k == '[' || k == '{' || k == '(') {
 				stack.push(k);
 				continue;
@@ -55,6 +55,5 @@ public class StackBracket {
 		} else {
 			System.out.println("Not a valid input");
 		}
-
 	}
 }
